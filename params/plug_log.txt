@@ -1,0 +1,99 @@
+Start is:18-04-2017 10:05Start is:18-04-2017 10:05
+Start is:18-04-2017 10:05
+Start is: 18-04-2017 10:21
+Start is: 19-04-2017 17:31
+Start is: 19-04-2017 17:32
+Start is: 19-04-2017 17:33
+Start is: 19-04-2017 17:33
+Start is: 19-04-2017 17:35
+Start is: 19-04-2017 17:35
+Start is: 19-04-2017 17:35
+Start is: 19-04-2017 17:35
+Start is: 19-04-2017 17:40
+Start is: 19-04-2017 17:43
+Start is: 19-04-2017 18:18
+Start is: 19-04-2017 19:01
+Start is: 19-04-2017 19:02
+Start is: 19-04-2017 19:02
+(STOP) working on: 20-04-2017 15:13
+(STOP) working on: 20-04-2017 15:14
+(STOP) working on: 20-04-2017 15:16
+(STOP) working on: 20-04-2017 15:19
+(STOP) working on: 20-04-2017 15:20
+(STOP) working on: 20-04-2017 15:23
+(STOP) working on: 20-04-2017 15:28
+(STOP) working on: 20-04-2017 15:30
+Start is: 21-04-2017 14:10
+Start is: 21-04-2017 14:10
+(STOP) working on: 21-04-2017 14:10
+(STOP) working on: 21-04-2017 14:10
+(STOP) working on: 21-04-2017 15:06
+(STOP) working on: 21-04-2017 15:06
+(STOP) working on: 21-04-2017 15:06
+(STOP) working on: 21-04-2017 15:06
+(STOP) working on: 21-04-2017 15:09
+(STOP) working on: 21-04-2017 15:09
+(STOP) working on: 21-04-2017 15:11
+(STOP) working on: 21-04-2017 15:15
+(STOP) working on: 21-04-2017 15:18
+(STOP) working on: 13-05-2017 13:22
+(STOP) working on: 13-05-2017 13:24
+(STOP) working on: 13-05-2017 13:29
+(STOP) working on: 13-05-2017 13:29
+(STOP) working on: 13-05-2017 13:31
+(STOP) working on: 13-05-2017 17:20
+(STOP) working on: 13-05-2017 17:20
+(STOP) working on: 13-05-2017 17:20
+(STOP) working on: 13-05-2017 17:21
+(STOP) working on: 13-05-2017 17:23
+(STOP) working on: 13-05-2017 18:03
+(STOP) working on: 13-05-2017 18:04
+(STOP) working on: 13-05-2017 18:06
+(STOP) working on: 13-05-2017 18:12
+(STOP) working on: 13-05-2017 18:14
+(WEB) statictics :31-05-2017 11:09 period is:d
+(STOP) working on: 31-05-2017 11:09
+(WEB) statictics :31-05-2017 11:15 period is:d
+(STOP) working on: 31-05-2017 11:15
+(WEB) statictics :31-05-2017 11:17 period is:d
+(STOP) working on: 31-05-2017 11:17
+(WEB) statictics :31-05-2017 11:18 period is:d
+(STOP) working on: 31-05-2017 11:18
+(WEB) statictics :31-05-2017 11:25 period is:d
+(STOP) working on: 31-05-2017 11:25
+(WEB) statictics :31-05-2017 11:26 period is:d
+(STOP) working on: 31-05-2017 11:26
+(WEB) statictics :31-05-2017 11:27 period is:d
+(STOP) working on: 31-05-2017 11:27
+(WEB) statictics :31-05-2017 11:28 period is:d
+(STOP) working on: 31-05-2017 11:28
+(WEB) statictics :31-05-2017 11:29 period is:d
+(STOP) working on: 31-05-2017 11:29
+(WEB) statictics :31-05-2017 11:33 period is:d
+(STOP) working on: 31-05-2017 11:33
+(WEB) statictics :31-05-2017 11:34 period is:d
+(STOP) working on: 31-05-2017 11:34
+(WEB) statictics :31-05-2017 11:38 period is:d
+(STOP) working on: 31-05-2017 11:38
+(WEB) statictics :31-05-2017 11:40 period is:d
+(STOP) working on: 31-05-2017 11:40
+(WEB) statictics :31-05-2017 11:41 period is:d
+(STOP) working on: 31-05-2017 11:41
+(WEB) statictics :31-05-2017 11:43 period is:d
+(STOP) working on: 31-05-2017 11:43
+(WEB) statictics :31-05-2017 11:46 period is:d
+(STOP) working on: 31-05-2017 11:46
+(WEB) statictics :31-05-2017 11:54 period is:d
+(STOP) working on: 31-05-2017 11:54
+(WEB) statictics :31-05-2017 11:57 period is:d
+(STOP) working on: 31-05-2017 11:57
+(WEB) statictics :31-05-2017 11:58 period is:d
+(STOP) working on: 31-05-2017 11:58
+(WEB) statictics :31-05-2017 11:58 period is:d
+(STOP) working on: 31-05-2017 11:58
+(WEB) statictics :31-05-2017 12:00 period is:d
+(STOP) working on: 31-05-2017 12:00
+(WEB) statictics :31-05-2017 12:04 period is:d
+(STOP) working on: 31-05-2017 12:04
+(WEB) statictics :31-05-2017 12:12 period is:d
+(STOP) working on: 31-05-2017 12:12

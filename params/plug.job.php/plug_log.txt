@@ -1,0 +1,1295 @@
+
+(WEB) statictics :31-05-2017 21:08 period is:w
+(!)binded:31-05-2017 21:08
+(WEB) statictics PERIOD IN:31-05-2017 21:08 period is:w
+Make statistics: 31-05-2017 21:08 period is:w
+(!)binded:31-05-2017 21:08
+(STAT)stat init DONE!: time is:31-05-2017 21:08
+(STAT)writeCommandsStat: Electro time is:31-05-2017 21:08 period is:w query_cnt=96
+(STAT)makeTimePeriod(3): i=1 period_min=105 data-time beginStatTime:'20170522102500'  endStatTime='20170522121000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522102500 EndTime=20170522121000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170522102500Z:endTime=20170522121000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=355&valuemin=355&valueaverage=355&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '355',
+  'valuemin' => '355',
+  'valueaverage' => '355',
+  '÷' => '',
+)  y=355
+(STAT-i=(1)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=2 period_min=105 data-time beginStatTime:'20170522084000'  endStatTime='20170522102500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522084000 EndTime=20170522102500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170522084000Z:endTime=20170522102500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=380&valuemin=380&valueaverage=380&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '380',
+  'valuemin' => '380',
+  'valueaverage' => '380',
+  '÷' => '',
+)  y=380
+(STAT-i=(2)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=3 period_min=105 data-time beginStatTime:'20170522065500'  endStatTime='20170522084000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522065500 EndTime=20170522084000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170522065500Z:endTime=20170522084000Z;
+(STAT-i=(3)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=4 period_min=105 data-time beginStatTime:'20170522051000'  endStatTime='20170522065500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522051000 EndTime=20170522065500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170522051000Z:endTime=20170522065500Z;
+(STAT-i=(4)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=5 period_min=105 data-time beginStatTime:'20170522032500'  endStatTime='20170522051000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522032500 EndTime=20170522051000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170522032500Z:endTime=20170522051000Z;
+(STAT-i=(5)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=6 period_min=105 data-time beginStatTime:'20170522014000'  endStatTime='20170522032500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522014000 EndTime=20170522032500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170522014000Z:endTime=20170522032500Z;
+(STAT-i=(6)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=7 period_min=105 data-time beginStatTime:'20170521235500'  endStatTime='20170522014000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521235500 EndTime=20170522014000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521235500Z:endTime=20170522014000Z;
+(STAT-i=(7)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=8 period_min=105 data-time beginStatTime:'20170521221000'  endStatTime='20170521235500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521221000 EndTime=20170521235500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521221000Z:endTime=20170521235500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=397&valuemin=397&valueaverage=397&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '397',
+  'valuemin' => '397',
+  'valueaverage' => '397',
+  '÷' => '',
+)  y=397
+(STAT-i=(8)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=9 period_min=105 data-time beginStatTime:'20170521202500'  endStatTime='20170521221000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521202500 EndTime=20170521221000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521202500Z:endTime=20170521221000Z;
+(STAT-i=(9)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=10 period_min=105 data-time beginStatTime:'20170521184000'  endStatTime='20170521202500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521184000 EndTime=20170521202500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521184000Z:endTime=20170521202500Z;
+(STAT-i=(10)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=11 period_min=105 data-time beginStatTime:'20170521165500'  endStatTime='20170521184000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521165500 EndTime=20170521184000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521165500Z:endTime=20170521184000Z;
+(STAT-i=(11)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=12 period_min=105 data-time beginStatTime:'20170521151000'  endStatTime='20170521165500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521151000 EndTime=20170521165500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521151000Z:endTime=20170521165500Z;
+(STAT-i=(12)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=13 period_min=105 data-time beginStatTime:'20170521132500'  endStatTime='20170521151000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521132500 EndTime=20170521151000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521132500Z:endTime=20170521151000Z;
+(STAT-i=(13)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=14 period_min=105 data-time beginStatTime:'20170521114000'  endStatTime='20170521132500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521114000 EndTime=20170521132500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521114000Z:endTime=20170521132500Z;
+(STAT-i=(14)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=15 period_min=105 data-time beginStatTime:'20170521095500'  endStatTime='20170521114000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521095500 EndTime=20170521114000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521095500Z:endTime=20170521114000Z;
+(STAT-i=(15)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=16 period_min=105 data-time beginStatTime:'20170521081000'  endStatTime='20170521095500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521081000 EndTime=20170521095500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521081000Z:endTime=20170521095500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=445&valuemin=445&valueaverage=445&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '445',
+  'valuemin' => '445',
+  'valueaverage' => '445',
+  '÷' => '',
+)  y=445
+(STAT-i=(16)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=17 period_min=105 data-time beginStatTime:'20170521062500'  endStatTime='20170521081000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521062500 EndTime=20170521081000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521062500Z:endTime=20170521081000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=408&valuemin=408&valueaverage=408&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '408',
+  'valuemin' => '408',
+  'valueaverage' => '408',
+  '÷' => '',
+)  y=408
+(STAT-i=(17)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=18 period_min=105 data-time beginStatTime:'20170521044000'  endStatTime='20170521062500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521044000 EndTime=20170521062500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521044000Z:endTime=20170521062500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=452&valuemin=452&valueaverage=452&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '452',
+  'valuemin' => '452',
+  'valueaverage' => '452',
+  '÷' => '',
+)  y=452
+(STAT-i=(18)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=19 period_min=105 data-time beginStatTime:'20170521025500'  endStatTime='20170521044000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521025500 EndTime=20170521044000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521025500Z:endTime=20170521044000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=422&valuemin=422&valueaverage=422&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '422',
+  'valuemin' => '422',
+  'valueaverage' => '422',
+  '÷' => '',
+)  y=422
+(STAT-i=(19)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=20 period_min=105 data-time beginStatTime:'20170521011000'  endStatTime='20170521025500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521011000 EndTime=20170521025500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521011000Z:endTime=20170521025500Z;
+(STAT-i=(20)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=21 period_min=105 data-time beginStatTime:'20170520232500'  endStatTime='20170521011000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520232500 EndTime=20170521011000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520232500Z:endTime=20170521011000Z;
+(STAT-i=(21)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=22 period_min=105 data-time beginStatTime:'20170520214000'  endStatTime='20170520232500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520214000 EndTime=20170520232500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520214000Z:endTime=20170520232500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=435&valuemin=435&valueaverage=435&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '435',
+  'valuemin' => '435',
+  'valueaverage' => '435',
+  '÷' => '',
+)  y=435
+(STAT-i=(22)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=23 period_min=105 data-time beginStatTime:'20170520195500'  endStatTime='20170520214000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520195500 EndTime=20170520214000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520195500Z:endTime=20170520214000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=449&valuemin=449&valueaverage=449&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '449',
+  'valuemin' => '449',
+  'valueaverage' => '449',
+  '÷' => '',
+)  y=449
+(STAT-i=(23)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=24 period_min=105 data-time beginStatTime:'20170520181000'  endStatTime='20170520195500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520181000 EndTime=20170520195500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520181000Z:endTime=20170520195500Z;
+(STAT-i=(24)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=25 period_min=105 data-time beginStatTime:'20170520162500'  endStatTime='20170520181000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520162500 EndTime=20170520181000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520162500Z:endTime=20170520181000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=452&valuemin=452&valueaverage=452&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '452',
+  'valuemin' => '452',
+  'valueaverage' => '452',
+  '÷' => '',
+)  y=452
+(STAT-i=(25)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=26 period_min=105 data-time beginStatTime:'20170520144000'  endStatTime='20170520162500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520144000 EndTime=20170520162500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520144000Z:endTime=20170520162500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=453&valuemin=453&valueaverage=453&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '453',
+  'valuemin' => '453',
+  'valueaverage' => '453',
+  '÷' => '',
+)  y=453
+(STAT-i=(26)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=27 period_min=105 data-time beginStatTime:'20170520125500'  endStatTime='20170520144000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520125500 EndTime=20170520144000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520125500Z:endTime=20170520144000Z;
+(STAT-i=(27)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=28 period_min=105 data-time beginStatTime:'20170520111000'  endStatTime='20170520125500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520111000 EndTime=20170520125500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520111000Z:endTime=20170520125500Z;
+(STAT-i=(28)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=29 period_min=105 data-time beginStatTime:'20170520092500'  endStatTime='20170520111000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520092500 EndTime=20170520111000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520092500Z:endTime=20170520111000Z;
+(STAT-i=(29)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=30 period_min=105 data-time beginStatTime:'20170520074000'  endStatTime='20170520092500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520074000 EndTime=20170520092500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520074000Z:endTime=20170520092500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=439&valuemin=439&valueaverage=439&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '439',
+  'valuemin' => '439',
+  'valueaverage' => '439',
+  '÷' => '',
+)  y=439
+(STAT-i=(30)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=31 period_min=105 data-time beginStatTime:'20170520055500'  endStatTime='20170520074000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520055500 EndTime=20170520074000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520055500Z:endTime=20170520074000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=430&valuemin=430&valueaverage=430&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '430',
+  'valuemin' => '430',
+  'valueaverage' => '430',
+  '÷' => '',
+)  y=430
+(STAT-i=(31)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=32 period_min=105 data-time beginStatTime:'20170520041000'  endStatTime='20170520055500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520041000 EndTime=20170520055500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520041000Z:endTime=20170520055500Z;
+(STAT-i=(32)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=33 period_min=105 data-time beginStatTime:'20170520022500'  endStatTime='20170520041000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520022500 EndTime=20170520041000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520022500Z:endTime=20170520041000Z;
+(STAT-i=(33)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=34 period_min=105 data-time beginStatTime:'20170520004000'  endStatTime='20170520022500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520004000 EndTime=20170520022500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520004000Z:endTime=20170520022500Z;
+(STAT-i=(34)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=35 period_min=105 data-time beginStatTime:'20170519225500'  endStatTime='20170520004000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519225500 EndTime=20170520004000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519225500Z:endTime=20170520004000Z;
+(STAT-i=(35)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=36 period_min=105 data-time beginStatTime:'20170519211000'  endStatTime='20170519225500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519211000 EndTime=20170519225500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519211000Z:endTime=20170519225500Z;
+(STAT-i=(36)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=37 period_min=105 data-time beginStatTime:'20170519192500'  endStatTime='20170519211000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519192500 EndTime=20170519211000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519192500Z:endTime=20170519211000Z;
+(STAT-i=(37)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=38 period_min=105 data-time beginStatTime:'20170519174000'  endStatTime='20170519192500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519174000 EndTime=20170519192500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519174000Z:endTime=20170519192500Z;
+(STAT-i=(38)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=39 period_min=105 data-time beginStatTime:'20170519155500'  endStatTime='20170519174000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519155500 EndTime=20170519174000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519155500Z:endTime=20170519174000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=389&valuemin=389&valueaverage=389&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '389',
+  'valuemin' => '389',
+  'valueaverage' => '389',
+  '÷' => '',
+)  y=389
+(STAT-i=(39)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=40 period_min=105 data-time beginStatTime:'20170519141000'  endStatTime='20170519155500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519141000 EndTime=20170519155500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519141000Z:endTime=20170519155500Z;
+(STAT-i=(40)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=41 period_min=105 data-time beginStatTime:'20170519122500'  endStatTime='20170519141000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519122500 EndTime=20170519141000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519122500Z:endTime=20170519141000Z;
+(STAT-i=(41)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=42 period_min=105 data-time beginStatTime:'20170519104000'  endStatTime='20170519122500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519104000 EndTime=20170519122500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519104000Z:endTime=20170519122500Z;
+(STAT-i=(42)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=43 period_min=105 data-time beginStatTime:'20170519085500'  endStatTime='20170519104000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519085500 EndTime=20170519104000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519085500Z:endTime=20170519104000Z;
+(STAT-i=(43)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=44 period_min=105 data-time beginStatTime:'20170519071000'  endStatTime='20170519085500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519071000 EndTime=20170519085500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519071000Z:endTime=20170519085500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=359&valuemin=359&valueaverage=359&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '359',
+  'valuemin' => '359',
+  'valueaverage' => '359',
+  '÷' => '',
+)  y=359
+(STAT-i=(44)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=45 period_min=105 data-time beginStatTime:'20170519052500'  endStatTime='20170519071000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519052500 EndTime=20170519071000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519052500Z:endTime=20170519071000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=376&valuemin=376&valueaverage=376&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '376',
+  'valuemin' => '376',
+  'valueaverage' => '376',
+  '÷' => '',
+)  y=376
+(STAT-i=(45)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=46 period_min=105 data-time beginStatTime:'20170519034000'  endStatTime='20170519052500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519034000 EndTime=20170519052500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519034000Z:endTime=20170519052500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=329&valuemin=329&valueaverage=329&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '329',
+  'valuemin' => '329',
+  'valueaverage' => '329',
+  '÷' => '',
+)  y=329
+(STAT-i=(46)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=47 period_min=105 data-time beginStatTime:'20170519015500'  endStatTime='20170519034000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519015500 EndTime=20170519034000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519015500Z:endTime=20170519034000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=344&valuemin=344&valueaverage=344&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '344',
+  'valuemin' => '344',
+  'valueaverage' => '344',
+  '÷' => '',
+)  y=344
+(STAT-i=(47)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=48 period_min=105 data-time beginStatTime:'20170519001000'  endStatTime='20170519015500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519001000 EndTime=20170519015500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519001000Z:endTime=20170519015500Z;
+(STAT-i=(48)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=49 period_min=105 data-time beginStatTime:'20170518222500'  endStatTime='20170519001000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518222500 EndTime=20170519001000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518222500Z:endTime=20170519001000Z;
+(STAT-i=(49)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=50 period_min=105 data-time beginStatTime:'20170518204000'  endStatTime='20170518222500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518204000 EndTime=20170518222500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518204000Z:endTime=20170518222500Z;
+(STAT-i=(50)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=51 period_min=105 data-time beginStatTime:'20170518185500'  endStatTime='20170518204000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518185500 EndTime=20170518204000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518185500Z:endTime=20170518204000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=280&valuemin=280&valueaverage=280&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '280',
+  'valuemin' => '280',
+  'valueaverage' => '280',
+  '÷' => '',
+)  y=280
+(STAT-i=(51)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=52 period_min=105 data-time beginStatTime:'20170518171000'  endStatTime='20170518185500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518171000 EndTime=20170518185500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518171000Z:endTime=20170518185500Z;
+(STAT-i=(52)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=53 period_min=105 data-time beginStatTime:'20170518152500'  endStatTime='20170518171000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518152500 EndTime=20170518171000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518152500Z:endTime=20170518171000Z;
+(STAT-i=(53)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=54 period_min=105 data-time beginStatTime:'20170518134000'  endStatTime='20170518152500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518134000 EndTime=20170518152500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518134000Z:endTime=20170518152500Z;
+(STAT-i=(54)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=55 period_min=105 data-time beginStatTime:'20170518115500'  endStatTime='20170518134000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518115500 EndTime=20170518134000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518115500Z:endTime=20170518134000Z;
+(STAT-i=(55)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=56 period_min=105 data-time beginStatTime:'20170518101000'  endStatTime='20170518115500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518101000 EndTime=20170518115500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518101000Z:endTime=20170518115500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=238&valuemin=238&valueaverage=238&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '238',
+  'valuemin' => '238',
+  'valueaverage' => '238',
+  '÷' => '',
+)  y=238
+(STAT-i=(56)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=57 period_min=105 data-time beginStatTime:'20170518082500'  endStatTime='20170518101000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518082500 EndTime=20170518101000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518082500Z:endTime=20170518101000Z;
+(STAT-i=(57)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=58 period_min=105 data-time beginStatTime:'20170518064000'  endStatTime='20170518082500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518064000 EndTime=20170518082500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518064000Z:endTime=20170518082500Z;
+(STAT-i=(58)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=59 period_min=105 data-time beginStatTime:'20170518045500'  endStatTime='20170518064000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518045500 EndTime=20170518064000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518045500Z:endTime=20170518064000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=194&valuemin=194&valueaverage=194&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '194',
+  'valuemin' => '194',
+  'valueaverage' => '194',
+  '÷' => '',
+)  y=194
+(STAT-i=(59)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=60 period_min=105 data-time beginStatTime:'20170518031000'  endStatTime='20170518045500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518031000 EndTime=20170518045500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518031000Z:endTime=20170518045500Z;
+(STAT-i=(60)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=61 period_min=105 data-time beginStatTime:'20170518012500'  endStatTime='20170518031000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518012500 EndTime=20170518031000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518012500Z:endTime=20170518031000Z;
+(STAT-i=(61)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=62 period_min=105 data-time beginStatTime:'20170517234000'  endStatTime='20170518012500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517234000 EndTime=20170518012500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517234000Z:endTime=20170518012500Z;
+(STAT-i=(62)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=63 period_min=105 data-time beginStatTime:'20170517215500'  endStatTime='20170517234000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517215500 EndTime=20170517234000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517215500Z:endTime=20170517234000Z;
+(STAT-i=(63)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=64 period_min=105 data-time beginStatTime:'20170517201000'  endStatTime='20170517215500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517201000 EndTime=20170517215500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517201000Z:endTime=20170517215500Z;
+(STAT-i=(64)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=65 period_min=105 data-time beginStatTime:'20170517182500'  endStatTime='20170517201000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517182500 EndTime=20170517201000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517182500Z:endTime=20170517201000Z;
+(STAT-i=(65)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=66 period_min=105 data-time beginStatTime:'20170517164000'  endStatTime='20170517182500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517164000 EndTime=20170517182500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517164000Z:endTime=20170517182500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=116&valuemin=116&valueaverage=116&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '116',
+  'valuemin' => '116',
+  'valueaverage' => '116',
+  '÷' => '',
+)  y=116
+(STAT-i=(66)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=67 period_min=105 data-time beginStatTime:'20170517145500'  endStatTime='20170517164000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517145500 EndTime=20170517164000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517145500Z:endTime=20170517164000Z;
+(STAT-i=(67)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=68 period_min=105 data-time beginStatTime:'20170517131000'  endStatTime='20170517145500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517131000 EndTime=20170517145500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517131000Z:endTime=20170517145500Z;
+(STAT-i=(68)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=69 period_min=105 data-time beginStatTime:'20170517112500'  endStatTime='20170517131000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517112500 EndTime=20170517131000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517112500Z:endTime=20170517131000Z;
+(STAT-i=(69)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=70 period_min=105 data-time beginStatTime:'20170517094000'  endStatTime='20170517112500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517094000 EndTime=20170517112500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517094000Z:endTime=20170517112500Z;
+(STAT-i=(70)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=71 period_min=105 data-time beginStatTime:'20170517075500'  endStatTime='20170517094000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517075500 EndTime=20170517094000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517075500Z:endTime=20170517094000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=175&valuemin=175&valueaverage=175&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '175',
+  'valuemin' => '175',
+  'valueaverage' => '175',
+  '÷' => '',
+)  y=175
+(STAT-i=(71)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=72 period_min=105 data-time beginStatTime:'20170517061000'  endStatTime='20170517075500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517061000 EndTime=20170517075500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517061000Z:endTime=20170517075500Z;
+(STAT-i=(72)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=73 period_min=105 data-time beginStatTime:'20170517042500'  endStatTime='20170517061000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517042500 EndTime=20170517061000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517042500Z:endTime=20170517061000Z;
+(STAT-i=(73)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=74 period_min=105 data-time beginStatTime:'20170517024000'  endStatTime='20170517042500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517024000 EndTime=20170517042500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517024000Z:endTime=20170517042500Z;
+(STAT-i=(74)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=75 period_min=105 data-time beginStatTime:'20170517005500'  endStatTime='20170517024000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517005500 EndTime=20170517024000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517005500Z:endTime=20170517024000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=149&valuemin=149&valueaverage=149&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '149',
+  'valuemin' => '149',
+  'valueaverage' => '149',
+  '÷' => '',
+)  y=149
+(STAT-i=(75)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=76 period_min=105 data-time beginStatTime:'20170516231000'  endStatTime='20170517005500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516231000 EndTime=20170517005500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516231000Z:endTime=20170517005500Z;
+(STAT-i=(76)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=77 period_min=105 data-time beginStatTime:'20170516212500'  endStatTime='20170516231000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516212500 EndTime=20170516231000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516212500Z:endTime=20170516231000Z;
+(STAT-i=(77)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=78 period_min=105 data-time beginStatTime:'20170516194000'  endStatTime='20170516212500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516194000 EndTime=20170516212500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516194000Z:endTime=20170516212500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=64&valuemin=64&valueaverage=64&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '64',
+  'valuemin' => '64',
+  'valueaverage' => '64',
+  '÷' => '',
+)  y=64
+(STAT-i=(78)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=79 period_min=105 data-time beginStatTime:'20170516175500'  endStatTime='20170516194000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516175500 EndTime=20170516194000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516175500Z:endTime=20170516194000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=38&valuemin=38&valueaverage=38&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '38',
+  'valuemin' => '38',
+  'valueaverage' => '38',
+  '÷' => '',
+)  y=38
+(STAT-i=(79)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=80 period_min=105 data-time beginStatTime:'20170516161000'  endStatTime='20170516175500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516161000 EndTime=20170516175500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516161000Z:endTime=20170516175500Z;
+(STAT-i=(80)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=81 period_min=105 data-time beginStatTime:'20170516142500'  endStatTime='20170516161000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516142500 EndTime=20170516161000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516142500Z:endTime=20170516161000Z;
+(STAT-i=(81)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=82 period_min=105 data-time beginStatTime:'20170516124000'  endStatTime='20170516142500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516124000 EndTime=20170516142500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516124000Z:endTime=20170516142500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=6&valuemin=6&valueaverage=6&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '6',
+  'valuemin' => '6',
+  'valueaverage' => '6',
+  '÷' => '',
+)  y=6
+(STAT-i=(82)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=83 period_min=105 data-time beginStatTime:'20170516105500'  endStatTime='20170516124000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516105500 EndTime=20170516124000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516105500Z:endTime=20170516124000Z;
+(STAT-i=(83)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=84 period_min=105 data-time beginStatTime:'20170516091000'  endStatTime='20170516105500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516091000 EndTime=20170516105500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516091000Z:endTime=20170516105500Z;
+(STAT-i=(84)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=85 period_min=105 data-time beginStatTime:'20170516072500'  endStatTime='20170516091000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516072500 EndTime=20170516091000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516072500Z:endTime=20170516091000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=83&valuemin=83&valueaverage=83&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '83',
+  'valuemin' => '83',
+  'valueaverage' => '83',
+  '÷' => '',
+)  y=83
+(STAT-i=(85)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=86 period_min=105 data-time beginStatTime:'20170516054000'  endStatTime='20170516072500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516054000 EndTime=20170516072500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516054000Z:endTime=20170516072500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=100&valuemin=100&valueaverage=100&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '100',
+  'valuemin' => '100',
+  'valueaverage' => '100',
+  '÷' => '',
+)  y=100
+(STAT-i=(86)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=87 period_min=105 data-time beginStatTime:'20170516035500'  endStatTime='20170516054000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516035500 EndTime=20170516054000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516035500Z:endTime=20170516054000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=43&valuemin=43&valueaverage=43&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '43',
+  'valuemin' => '43',
+  'valueaverage' => '43',
+  '÷' => '',
+)  y=43
+(STAT-i=(87)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=88 period_min=105 data-time beginStatTime:'20170516021000'  endStatTime='20170516035500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516021000 EndTime=20170516035500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516021000Z:endTime=20170516035500Z;
+(STAT-i=(88)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=89 period_min=105 data-time beginStatTime:'20170516002500'  endStatTime='20170516021000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516002500 EndTime=20170516021000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516002500Z:endTime=20170516021000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=60&valuemin=60&valueaverage=60&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '60',
+  'valuemin' => '60',
+  'valueaverage' => '60',
+  '÷' => '',
+)  y=60
+(STAT-i=(89)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=90 period_min=105 data-time beginStatTime:'20170515224000'  endStatTime='20170516002500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170515224000 EndTime=20170516002500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170515224000Z:endTime=20170516002500Z;
+(STAT-i=(90)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=91 period_min=105 data-time beginStatTime:'20170515205500'  endStatTime='20170515224000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170515205500 EndTime=20170515224000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170515205500Z:endTime=20170515224000Z;
+(STAT-i=(91)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=92 period_min=105 data-time beginStatTime:'20170515191000'  endStatTime='20170515205500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170515191000 EndTime=20170515205500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170515191000Z:endTime=20170515205500Z;
+(STAT-i=(92)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=93 period_min=105 data-time beginStatTime:'20170515172500'  endStatTime='20170515191000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170515172500 EndTime=20170515191000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170515172500Z:endTime=20170515191000Z;
+(STAT-i=(93)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=94 period_min=105 data-time beginStatTime:'20170515154000'  endStatTime='20170515172500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170515154000 EndTime=20170515172500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170515154000Z:endTime=20170515172500Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=165&valuemin=165&valueaverage=165&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '165',
+  'valuemin' => '165',
+  'valueaverage' => '165',
+  '÷' => '',
+)  y=165
+(STAT-i=(94)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=95 period_min=105 data-time beginStatTime:'20170515135500'  endStatTime='20170515154000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170515135500 EndTime=20170515154000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170515135500Z:endTime=20170515154000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=178&valuemin=178&valueaverage=178&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '178',
+  'valuemin' => '178',
+  'valueaverage' => '178',
+  '÷' => '',
+)  y=178
+(STAT-i=(95)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=96 period_min=105 data-time beginStatTime:'20170515121000'  endStatTime='20170515135500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170515121000 EndTime=20170515135500
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170515121000Z:endTime=20170515135500Z;
+(STAT-i=(96)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:08 period is:w
+(STAT)writeCommandsStat: Fuel time is:31-05-2017 21:08 period is:w query_cnt=96
+(STAT)makeTimePeriod(3): i=1 period_min=105 data-time beginStatTime:'20170522102500'  endStatTime='20170522121000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522102500 EndTime=20170522121000
+(STAT)MAKE Stat param_name=Fuel Cmd str:UID=WebStat:ou=Test1:parameterName=Fuel_Con:beginTime=20170522102500Z:endTime=20170522121000Z;
+(STAT-i=(1)-done)writeCommandsStat (Done!): Fuel time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=2 period_min=105 data-time beginStatTime:'20170522084000'  endStatTime='20170522102500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522084000 EndTime=20170522102500
+(STAT)MAKE Stat param_name=Fuel Cmd str:UID=WebStat:ou=Test1:parameterName=Fuel_Con:beginTime=20170522084000Z:endTime=20170522102500Z;
+(STAT-i=(2)-done)writeCommandsStat (Done!): Fuel time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=3 period_min=105 data-time beginStatTime:'20170522065500'  endStatTime='20170522084000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522065500 EndTime=20170522084000
+(STAT)MAKE Stat param_name=Fuel Cmd str:UID=WebStat:ou=Test1:parameterName=Fuel_Con:beginTime=20170522065500Z:endTime=20170522084000Z;
+(STAT-i=(3)-done)writeCommandsStat (Done!): Fuel time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=4 period_min=105 data-time beginStatTime:'20170522051000'  endStatTime='20170522065500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522051000 EndTime=20170522065500
+(STAT)MAKE Stat param_name=Fuel Cmd str:UID=WebStat:ou=Test1:parameterName=Fuel_Con:beginTime=20170522051000Z:endTime=20170522065500Z;
+(STAT-i=(4)-done)writeCommandsStat (Done!): Fuel time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=5 period_min=105 data-time beginStatTime:'20170522032500'  endStatTime='20170522051000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522032500 EndTime=20170522051000
+(STAT)MAKE Stat param_name=Fuel Cmd str:UID=WebStat:ou=Test1:parameterName=Fuel_Con:beginTime=20170522032500Z:endTime=20170522051000Z;
+(STAT-i=(5)-done)writeCommandsStat (Done!): Fuel time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=6 period_min=105 data-time beginStatTime:'20170522014000'  endStatTime='20170522032500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522014000 EndTime=20170522032500
+(STAT)MAKE Stat param_name=Fuel Cmd str:UID=WebStat:ou=Test1:parameterName=Fuel_Con:beginTime=20170522014000Z:endTime=20170522032500Z;
+(STAT-i=(6)-done)writeCommandsStat (Done!): Fuel time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=7 period_min=105 data-time beginStatTime:'20170521235500'  endStatTime='20170522014000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521235500 EndTime=20170522014000
+(STAT)MAKE Stat param_name=Fuel Cmd str:UID=WebStat:ou=Test1:parameterName=Fuel_Con:beginTime=20170521235500Z:endTime=20170522014000Z;
+(STAT-i=(7)-done)writeCommandsStat (Done!): Fuel time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=8 period_min=105 data-time beginStatTime:'20170521221000'  endStatTime='20170521235500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521221000 EndTime=20170521235500
+(STAT)MAKE Stat param_name=Fuel Cmd str:UID=WebStat:ou=Test1:parameterName=Fuel_Con:beginTime=20170521221000Z:endTime=20170521235500Z;
+(STAT DATA)next data:parameter=fuel_con&valuemax=275&valuemin=272&valueaverage=273&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'fuel_con',
+  'valuemax' => '275',
+  'valuemin' => '272',
+  'valueaverage' => '273',
+  '÷' => '',
+)  y=273
+(STAT-i=(8)-done)writeCommandsStat (Done!): Fuel time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=9 period_min=105 data-time beginStatTime:'20170521202500'  endStatTime='20170521221000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521202500 EndTime=20170521221000
+(STAT)MAKE Stat param_name=Fuel Cmd str:UID=WebStat:ou=Test1:parameterName=Fuel_Con:beginTime=20170521202500Z:endTime=20170521221000Z;
+(STAT DATA)next data:parameter=fuel_con&valuemax=271&valuemin=262&valueaverage=266&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'fuel_con',
+  'valuemax' => '271',
+  'valuemin' => '262',
+  'valueaverage' => '266',
+  '÷' => '',
+)  y=266
+(STAT-i=(9)-done)writeCommandsStat (Done!): Fuel time is:31-05-2017 21:08 period is:w
+(STAT)makeTimePeriod(3): i=10 period_min=105 data-time beginStatTime:'20170521184000'  endStatTime='20170521202500'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521184000 EndTime=20170521202500
+(STAT)MAKE Stat param_name=Fuel Cmd str:UID=WebStat:ou=Test1:parameterName=Fuel_Con:beginTime=20170521184000Z:endTime=20170521202500Z;
+(STAT DATA)next data:parameter=fuel_con&valuemax=261&valuemin=248&valueaverage=254&÷ >> pos_p_name=13
+(WEB) statictics :31-05-2017 21:11 period is:m
+(!)binded:31-05-2017 21:11
+(WEB) statictics PERIOD IN:31-05-2017 21:11 period is:m
+Make statistics: 31-05-2017 21:11 period is:m
+(!)binded:31-05-2017 21:11
+(STAT)stat init DONE!: time is:31-05-2017 21:11
+(STAT)writeCommandsStat: Electro time is:31-05-2017 21:11 period is:m query_cnt=96
+(STAT)makeTimePeriod(3): i=1 period_min=300 data-time beginStatTime:'20170522071000'  endStatTime='20170522121000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522071000 EndTime=20170522121000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170522071000Z:endTime=20170522121000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=380&valuemin=355&valueaverage=367&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '380',
+  'valuemin' => '355',
+  'valueaverage' => '367',
+  '÷' => '',
+)  y=367
+(STAT-i=(1)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=2 period_min=300 data-time beginStatTime:'20170522021000'  endStatTime='20170522071000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170522021000 EndTime=20170522071000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170522021000Z:endTime=20170522071000Z;
+(STAT-i=(2)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=3 period_min=300 data-time beginStatTime:'20170521211000'  endStatTime='20170522021000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521211000 EndTime=20170522021000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521211000Z:endTime=20170522021000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=397&valuemin=397&valueaverage=397&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '397',
+  'valuemin' => '397',
+  'valueaverage' => '397',
+  '÷' => '',
+)  y=397
+(STAT-i=(3)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=4 period_min=300 data-time beginStatTime:'20170521161000'  endStatTime='20170521211000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521161000 EndTime=20170521211000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521161000Z:endTime=20170521211000Z;
+(STAT-i=(4)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=5 period_min=300 data-time beginStatTime:'20170521111000'  endStatTime='20170521161000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521111000 EndTime=20170521161000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521111000Z:endTime=20170521161000Z;
+(STAT-i=(5)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=6 period_min=300 data-time beginStatTime:'20170521061000'  endStatTime='20170521111000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521061000 EndTime=20170521111000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521061000Z:endTime=20170521111000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=445&valuemin=408&valueaverage=426&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '445',
+  'valuemin' => '408',
+  'valueaverage' => '426',
+  '÷' => '',
+)  y=426
+(STAT-i=(6)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=7 period_min=300 data-time beginStatTime:'20170521011000'  endStatTime='20170521061000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170521011000 EndTime=20170521061000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170521011000Z:endTime=20170521061000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=452&valuemin=422&valueaverage=437&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '452',
+  'valuemin' => '422',
+  'valueaverage' => '437',
+  '÷' => '',
+)  y=437
+(STAT-i=(7)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=8 period_min=300 data-time beginStatTime:'20170520201000'  endStatTime='20170521011000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520201000 EndTime=20170521011000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520201000Z:endTime=20170521011000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=449&valuemin=435&valueaverage=442&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '449',
+  'valuemin' => '435',
+  'valueaverage' => '442',
+  '÷' => '',
+)  y=442
+(STAT-i=(8)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=9 period_min=300 data-time beginStatTime:'20170520151000'  endStatTime='20170520201000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520151000 EndTime=20170520201000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520151000Z:endTime=20170520201000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=452&valuemin=452&valueaverage=452&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '452',
+  'valuemin' => '452',
+  'valueaverage' => '452',
+  '÷' => '',
+)  y=452
+(STAT-i=(9)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=10 period_min=300 data-time beginStatTime:'20170520101000'  endStatTime='20170520151000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520101000 EndTime=20170520151000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520101000Z:endTime=20170520151000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=453&valuemin=453&valueaverage=453&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '453',
+  'valuemin' => '453',
+  'valueaverage' => '453',
+  '÷' => '',
+)  y=453
+(STAT-i=(10)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=11 period_min=300 data-time beginStatTime:'20170520051000'  endStatTime='20170520101000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520051000 EndTime=20170520101000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520051000Z:endTime=20170520101000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=439&valuemin=430&valueaverage=434&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '439',
+  'valuemin' => '430',
+  'valueaverage' => '434',
+  '÷' => '',
+)  y=434
+(STAT-i=(11)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=12 period_min=300 data-time beginStatTime:'20170520001000'  endStatTime='20170520051000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170520001000 EndTime=20170520051000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170520001000Z:endTime=20170520051000Z;
+(STAT-i=(12)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=13 period_min=300 data-time beginStatTime:'20170519191000'  endStatTime='20170520001000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519191000 EndTime=20170520001000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519191000Z:endTime=20170520001000Z;
+(STAT-i=(13)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=14 period_min=300 data-time beginStatTime:'20170519141000'  endStatTime='20170519191000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519141000 EndTime=20170519191000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519141000Z:endTime=20170519191000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=389&valuemin=389&valueaverage=389&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '389',
+  'valuemin' => '389',
+  'valueaverage' => '389',
+  '÷' => '',
+)  y=389
+(STAT-i=(14)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=15 period_min=300 data-time beginStatTime:'20170519091000'  endStatTime='20170519141000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519091000 EndTime=20170519141000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519091000Z:endTime=20170519141000Z;
+(STAT-i=(15)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=16 period_min=300 data-time beginStatTime:'20170519041000'  endStatTime='20170519091000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170519041000 EndTime=20170519091000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170519041000Z:endTime=20170519091000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=376&valuemin=329&valueaverage=354&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '376',
+  'valuemin' => '329',
+  'valueaverage' => '354',
+  '÷' => '',
+)  y=354
+(STAT-i=(16)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=17 period_min=300 data-time beginStatTime:'20170518231000'  endStatTime='20170519041000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518231000 EndTime=20170519041000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518231000Z:endTime=20170519041000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=344&valuemin=344&valueaverage=344&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '344',
+  'valuemin' => '344',
+  'valueaverage' => '344',
+  '÷' => '',
+)  y=344
+(STAT-i=(17)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=18 period_min=300 data-time beginStatTime:'20170518181000'  endStatTime='20170518231000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518181000 EndTime=20170518231000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518181000Z:endTime=20170518231000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=280&valuemin=280&valueaverage=280&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '280',
+  'valuemin' => '280',
+  'valueaverage' => '280',
+  '÷' => '',
+)  y=280
+(STAT-i=(18)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=19 period_min=300 data-time beginStatTime:'20170518131000'  endStatTime='20170518181000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518131000 EndTime=20170518181000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518131000Z:endTime=20170518181000Z;
+(STAT-i=(19)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=20 period_min=300 data-time beginStatTime:'20170518081000'  endStatTime='20170518131000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518081000 EndTime=20170518131000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518081000Z:endTime=20170518131000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=238&valuemin=238&valueaverage=238&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '238',
+  'valuemin' => '238',
+  'valueaverage' => '238',
+  '÷' => '',
+)  y=238
+(STAT-i=(20)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=21 period_min=300 data-time beginStatTime:'20170518031000'  endStatTime='20170518081000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170518031000 EndTime=20170518081000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170518031000Z:endTime=20170518081000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=194&valuemin=194&valueaverage=194&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '194',
+  'valuemin' => '194',
+  'valueaverage' => '194',
+  '÷' => '',
+)  y=194
+(STAT-i=(21)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=22 period_min=300 data-time beginStatTime:'20170517221000'  endStatTime='20170518031000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517221000 EndTime=20170518031000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517221000Z:endTime=20170518031000Z;
+(STAT-i=(22)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=23 period_min=300 data-time beginStatTime:'20170517171000'  endStatTime='20170517221000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517171000 EndTime=20170517221000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517171000Z:endTime=20170517221000Z;
+(STAT-i=(23)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=24 period_min=300 data-time beginStatTime:'20170517121000'  endStatTime='20170517171000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517121000 EndTime=20170517171000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517121000Z:endTime=20170517171000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=116&valuemin=116&valueaverage=116&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '116',
+  'valuemin' => '116',
+  'valueaverage' => '116',
+  '÷' => '',
+)  y=116
+(STAT-i=(24)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=25 period_min=300 data-time beginStatTime:'20170517071000'  endStatTime='20170517121000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517071000 EndTime=20170517121000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517071000Z:endTime=20170517121000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=175&valuemin=175&valueaverage=175&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '175',
+  'valuemin' => '175',
+  'valueaverage' => '175',
+  '÷' => '',
+)  y=175
+(STAT-i=(25)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=26 period_min=300 data-time beginStatTime:'20170517021000'  endStatTime='20170517071000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170517021000 EndTime=20170517071000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170517021000Z:endTime=20170517071000Z;
+(STAT-i=(26)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=27 period_min=300 data-time beginStatTime:'20170516211000'  endStatTime='20170517021000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516211000 EndTime=20170517021000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516211000Z:endTime=20170517021000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=149&valuemin=149&valueaverage=149&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '149',
+  'valuemin' => '149',
+  'valueaverage' => '149',
+  '÷' => '',
+)  y=149
+(STAT-i=(27)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=28 period_min=300 data-time beginStatTime:'20170516161000'  endStatTime='20170516211000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516161000 EndTime=20170516211000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516161000Z:endTime=20170516211000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=64&valuemin=38&valueaverage=51&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '64',
+  'valuemin' => '38',
+  'valueaverage' => '51',
+  '÷' => '',
+)  y=51
+(STAT-i=(28)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=29 period_min=300 data-time beginStatTime:'20170516111000'  endStatTime='20170516161000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516111000 EndTime=20170516161000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516111000Z:endTime=20170516161000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=6&valuemin=6&valueaverage=6&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '6',
+  'valuemin' => '6',
+  'valueaverage' => '6',
+  '÷' => '',
+)  y=6
+(STAT-i=(29)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=30 period_min=300 data-time beginStatTime:'20170516061000'  endStatTime='20170516111000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516061000 EndTime=20170516111000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516061000Z:endTime=20170516111000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=83&valuemin=83&valueaverage=83&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '83',
+  'valuemin' => '83',
+  'valueaverage' => '83',
+  '÷' => '',
+)  y=83
+(STAT-i=(30)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=31 period_min=300 data-time beginStatTime:'20170516011000'  endStatTime='20170516061000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170516011000 EndTime=20170516061000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170516011000Z:endTime=20170516061000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=100&valuemin=43&valueaverage=67&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '100',
+  'valuemin' => '43',
+  'valueaverage' => '67',
+  '÷' => '',
+)  y=67
+(STAT-i=(31)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=32 period_min=300 data-time beginStatTime:'20170515201000'  endStatTime='20170516011000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170515201000 EndTime=20170516011000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170515201000Z:endTime=20170516011000Z;
+(STAT-i=(32)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=33 period_min=300 data-time beginStatTime:'20170515151000'  endStatTime='20170515201000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170515151000 EndTime=20170515201000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170515151000Z:endTime=20170515201000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=165&valuemin=165&valueaverage=165&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '165',
+  'valuemin' => '165',
+  'valueaverage' => '165',
+  '÷' => '',
+)  y=165
+(STAT-i=(33)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=34 period_min=300 data-time beginStatTime:'20170515101000'  endStatTime='20170515151000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170515101000 EndTime=20170515151000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170515101000Z:endTime=20170515151000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=178&valuemin=116&valueaverage=147&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '178',
+  'valuemin' => '116',
+  'valueaverage' => '147',
+  '÷' => '',
+)  y=147
+(STAT-i=(34)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=35 period_min=300 data-time beginStatTime:'20170515051000'  endStatTime='20170515101000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170515051000 EndTime=20170515101000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170515051000Z:endTime=20170515101000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=194&valuemin=194&valueaverage=194&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '194',
+  'valuemin' => '194',
+  'valueaverage' => '194',
+  '÷' => '',
+)  y=194
+(STAT-i=(35)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=36 period_min=300 data-time beginStatTime:'20170515001000'  endStatTime='20170515051000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170515001000 EndTime=20170515051000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170515001000Z:endTime=20170515051000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=205&valuemin=131&valueaverage=168&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '205',
+  'valuemin' => '131',
+  'valueaverage' => '168',
+  '÷' => '',
+)  y=168
+(STAT-i=(36)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=37 period_min=300 data-time beginStatTime:'20170514191000'  endStatTime='20170515001000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170514191000 EndTime=20170515001000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170514191000Z:endTime=20170515001000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=222&valuemin=222&valueaverage=222&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '222',
+  'valuemin' => '222',
+  'valueaverage' => '222',
+  '÷' => '',
+)  y=222
+(STAT-i=(37)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=38 period_min=300 data-time beginStatTime:'20170514141000'  endStatTime='20170514191000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170514141000 EndTime=20170514191000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170514141000Z:endTime=20170514191000Z;
+(STAT-i=(38)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=39 period_min=300 data-time beginStatTime:'20170514091000'  endStatTime='20170514141000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170514091000 EndTime=20170514141000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170514091000Z:endTime=20170514141000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=258&valuemin=231&valueaverage=244&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '258',
+  'valuemin' => '231',
+  'valueaverage' => '244',
+  '÷' => '',
+)  y=244
+(STAT-i=(39)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=40 period_min=300 data-time beginStatTime:'20170514041000'  endStatTime='20170514091000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170514041000 EndTime=20170514091000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170514041000Z:endTime=20170514091000Z;
+(STAT-i=(40)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=41 period_min=300 data-time beginStatTime:'20170513231000'  endStatTime='20170514041000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170513231000 EndTime=20170514041000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170513231000Z:endTime=20170514041000Z;
+(STAT-i=(41)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=42 period_min=300 data-time beginStatTime:'20170513181000'  endStatTime='20170513231000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170513181000 EndTime=20170513231000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170513181000Z:endTime=20170513231000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=266&valuemin=266&valueaverage=266&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '266',
+  'valuemin' => '266',
+  'valueaverage' => '266',
+  '÷' => '',
+)  y=266
+(STAT-i=(42)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=43 period_min=300 data-time beginStatTime:'20170513131000'  endStatTime='20170513181000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170513131000 EndTime=20170513181000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170513131000Z:endTime=20170513181000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=269&valuemin=269&valueaverage=269&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '269',
+  'valuemin' => '269',
+  'valueaverage' => '269',
+  '÷' => '',
+)  y=269
+(STAT-i=(43)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=44 period_min=300 data-time beginStatTime:'20170513081000'  endStatTime='20170513131000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170513081000 EndTime=20170513131000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170513081000Z:endTime=20170513131000Z;
+(STAT-i=(44)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=45 period_min=300 data-time beginStatTime:'20170513031000'  endStatTime='20170513081000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170513031000 EndTime=20170513081000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170513031000Z:endTime=20170513081000Z;
+(STAT-i=(45)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=46 period_min=300 data-time beginStatTime:'20170512221000'  endStatTime='20170513031000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170512221000 EndTime=20170513031000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170512221000Z:endTime=20170513031000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=274&valuemin=267&valueaverage=271&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '274',
+  'valuemin' => '267',
+  'valueaverage' => '271',
+  '÷' => '',
+)  y=271
+(STAT-i=(46)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=47 period_min=300 data-time beginStatTime:'20170512171000'  endStatTime='20170512221000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170512171000 EndTime=20170512221000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170512171000Z:endTime=20170512221000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=274&valuemin=274&valueaverage=274&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '274',
+  'valuemin' => '274',
+  'valueaverage' => '274',
+  '÷' => '',
+)  y=274
+(STAT-i=(47)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=48 period_min=300 data-time beginStatTime:'20170512121000'  endStatTime='20170512171000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170512121000 EndTime=20170512171000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170512121000Z:endTime=20170512171000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=263&valuemin=256&valueaverage=259&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '263',
+  'valuemin' => '256',
+  'valueaverage' => '259',
+  '÷' => '',
+)  y=259
+(STAT-i=(48)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=49 period_min=300 data-time beginStatTime:'20170512071000'  endStatTime='20170512121000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170512071000 EndTime=20170512121000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170512071000Z:endTime=20170512121000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=244&valuemin=232&valueaverage=238&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '244',
+  'valuemin' => '232',
+  'valueaverage' => '238',
+  '÷' => '',
+)  y=238
+(STAT-i=(49)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=50 period_min=300 data-time beginStatTime:'20170512021000'  endStatTime='20170512071000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170512021000 EndTime=20170512071000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170512021000Z:endTime=20170512071000Z;
+(STAT-i=(50)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=51 period_min=300 data-time beginStatTime:'20170511211000'  endStatTime='20170512021000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170511211000 EndTime=20170512021000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170511211000Z:endTime=20170512021000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=224&valuemin=224&valueaverage=224&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '224',
+  'valuemin' => '224',
+  'valueaverage' => '224',
+  '÷' => '',
+)  y=224
+(STAT-i=(51)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=52 period_min=300 data-time beginStatTime:'20170511161000'  endStatTime='20170511211000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170511161000 EndTime=20170511211000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170511161000Z:endTime=20170511211000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=189&valuemin=189&valueaverage=189&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '189',
+  'valuemin' => '189',
+  'valueaverage' => '189',
+  '÷' => '',
+)  y=189
+(STAT-i=(52)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=53 period_min=300 data-time beginStatTime:'20170511111000'  endStatTime='20170511161000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170511111000 EndTime=20170511161000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170511111000Z:endTime=20170511161000Z;
+(STAT-i=(53)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=54 period_min=300 data-time beginStatTime:'20170511061000'  endStatTime='20170511111000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170511061000 EndTime=20170511111000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170511061000Z:endTime=20170511111000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=166&valuemin=166&valueaverage=166&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '166',
+  'valuemin' => '166',
+  'valueaverage' => '166',
+  '÷' => '',
+)  y=166
+(STAT-i=(54)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=55 period_min=300 data-time beginStatTime:'20170511011000'  endStatTime='20170511061000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170511011000 EndTime=20170511061000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170511011000Z:endTime=20170511061000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=204&valuemin=141&valueaverage=172&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '204',
+  'valuemin' => '141',
+  'valueaverage' => '172',
+  '÷' => '',
+)  y=172
+(STAT-i=(55)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=56 period_min=300 data-time beginStatTime:'20170510201000'  endStatTime='20170511011000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170510201000 EndTime=20170511011000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170510201000Z:endTime=20170511011000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=176&valuemin=176&valueaverage=176&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '176',
+  'valuemin' => '176',
+  'valueaverage' => '176',
+  '÷' => '',
+)  y=176
+(STAT-i=(56)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=57 period_min=300 data-time beginStatTime:'20170510151000'  endStatTime='20170510201000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170510151000 EndTime=20170510201000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170510151000Z:endTime=20170510201000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=112&valuemin=112&valueaverage=112&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '112',
+  'valuemin' => '112',
+  'valueaverage' => '112',
+  '÷' => '',
+)  y=112
+(STAT-i=(57)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=58 period_min=300 data-time beginStatTime:'20170510101000'  endStatTime='20170510151000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170510101000 EndTime=20170510151000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170510101000Z:endTime=20170510151000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=130&valuemin=90&valueaverage=110&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '130',
+  'valuemin' => '90',
+  'valueaverage' => '110',
+  '÷' => '',
+)  y=110
+(STAT-i=(58)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=59 period_min=300 data-time beginStatTime:'20170510051000'  endStatTime='20170510101000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170510051000 EndTime=20170510101000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170510051000Z:endTime=20170510101000Z;
+(STAT DATA)next data:parameter=inv_load&valuemax=61&valuemin=61&valueaverage=61&÷ >> pos_p_name=13
+(STAT DATA)after parse:array (
+  'parameter' => 'inv_load',
+  'valuemax' => '61',
+  'valuemin' => '61',
+  'valueaverage' => '61',
+  '÷' => '',
+)  y=61
+(STAT-i=(59)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=60 period_min=300 data-time beginStatTime:'20170510001000'  endStatTime='20170510051000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170510001000 EndTime=20170510051000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170510001000Z:endTime=20170510051000Z;
+(STAT-i=(60)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=61 period_min=300 data-time beginStatTime:'20170509191000'  endStatTime='20170510001000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170509191000 EndTime=20170510001000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170509191000Z:endTime=20170510001000Z;
+(STAT-i=(61)-done)writeCommandsStat (Done!): Electro time is:31-05-2017 21:11 period is:m
+(STAT)makeTimePeriod(3): i=62 period_min=300 data-time beginStatTime:'20170509141000'  endStatTime='20170509191000'
+(STAT)(makeTimePeriod)(5) str: beginTime=20170509141000 EndTime=20170509191000
+(STAT)MAKE Stat param_name=Electro Cmd str:UID=WebStat:ou=Test1:parameterName=Inv_Load:beginTime=20170509141000Z:endTime=20170509191000Z;

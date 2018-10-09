@@ -1,0 +1,46 @@
+// ќткрываем 3 отдельных терминала
+// ¬ первом запускаем базу: root@Linkit:~# ./energo.18.04.17
+// ¬о втором и третьем запускаем: root@Linkit:~# ./consender.py   (это будут терминалы Test1 и  WebPage)
+// ≈сли consender вылетает - ничего страшного, запускаем еще раз и шлем строку инициализации! и продолжаем
+// — начала надо завести владельцев переменных - это как бы устройства или программы чьи переменные обслуживает база
+// из терминала Test1 по очереди посылаем строки
+// ¬нимание - "$" - это чисто что бы определить что следующие 2 значени€ это байты, в сокет посылать Ѕ≈« "$"
+$F0$7F$01UID=Test1:ou=Test1:description=Test module 1:wr=FALSE:stat=FALSE:iface=SOCKET;$F7
+
+$F0$7F$01UID=Test1:ou=Test1:parameterName=Fuel_Vol:description=Volume of fuel level:value=48:power=1:wr=FALSE:stat=TRUE:recverAdd=TRUE;$F7
+$F0$7F$01UID=Test1:ou=Test1:parameterName=State_On_Off:description=State of the engine work:value=0:power=0:wr=FALSE:stat=TRUE:recverAdd=TRUE;$F7
+$F0$7F$01UID=Test1:ou=Test1:parameterName=Eng_Temp:description=Engine Temperature:value=954:power=-1:wr=FALSE:stat=TRUE:recverAdd=TRUE;$F7
+$F0$7F$01UID=Test1:ou=Test1:parameterName=Battery_Lvl:description=Battery charge level:value=55:power=-1:wr=FALSE:stat=TRUE:recverAdd=TRUE;$F7
+$F0$7F$01UID=Test1:ou=Test1:parameterName=Power_On_Off:description=Power output switch:value=1:power=0:wr=TRUE:stat=TRUE:recverAdd=TRUE;$F7
+$F0$7F$01UID=Test1:ou=Test1:parameterName=Inv_Load:description=Current power load on inverter:value=35:power=-1:wr=FALSE:stat=TRUE:recverAdd=TRUE$F7
+$F0$7F$01UID=Test1:ou=Test1:parameterName=Eng_Serv:description=Days left till maintenance:value=12:power=0:wr=FALSE:stat=TRUE:recverAdd=TRUE;$F7
+
+
+// из терминала WebPage
+// «аводим WebPage что бы получать значени€ - строка инициализации
+$F0$7F$01UID=WebPage:ou=WebPage:description=Test web page:wr=FALSE:stat=FALSE:iface=SOCKET;$F7
+
+// ѕодписываемс€ на нужные переменные - это те что автоматически получаем и кладем в буфер
+//  ак только посылаем строку - сразу приходит текущее значение переменной! проверить кидаем # enter 
+// ≈сли consender вылетает - ниего страшного, запускаем еще раз и шлем строку инициализации!
+$F0$7F$01UID=WebPage:ou=Test1:parameterName=Fuel_Vol:recverName=WebPage;$F7
+$F0$7F$01UID=WebPage:ou=Test1:parameterName=State_On_Off:recverName=WebPage;$F7
+$F0$7F$01UID=WebPage:ou=Test1:parameterName=Eng_Temp:recverName=WebPage;$F7
+$F0$7F$01UID=WebPage:ou=Test1:parameterName=Battery_Lvl:recverName=WebPage;$F7
+$F0$7F$01UID=WebPage:ou=Test1:parameterName=Power_On_Off:recverName=WebPage;$F7
+$F0$7F$01UID=WebPage:ou=Test1:parameterName=Inv_Load:recverName=WebPage;$F7
+$F0$7F$01UID=WebPage:ou=Test1:parameterName=Eng_Serv:recverName=WebPage;$F7
+
+
+// теперь что бы проверить работу, достаточно послать запросы на изменение переменных
+// ќтвет на изменение переменных Test1 - будет приходить на  WebPage, потому что WebPage на них подписано
+// „то бы увидеть что пришло в WebPage, в терминале consender введите # и enter - на экран выведетс€ все что пришло по сокету
+// из терминала Test1 посылаем
+$F0$7F$01UID=Test1:ou=Test1:parameterName=Fuel_Vol:value=50;$F7
+$F0$7F$01UID=Test1:ou=Test1:parameterName=State_On_Off:value=0;$F7
+$F0$7F$01UID=Test1:ou=Test1:parameterName=Eng_Temp:value=500;$F7
+$F0$7F$01UID=Test1:ou=Test1:parameterName=Battery_Lvl:value=110;$F7
+$F0$7F$01UID=Test1:ou=Test1:parameterName=Power_On_Off:value=0;$F7
+$F0$7F$01UID=Test1:ou=Test1:parameterName=Inv_Load:value=250;$F7
+$F0$7F$01UID=Test1:ou=Test1:parameterName=Eng_Serv:value=66;$F7
+
