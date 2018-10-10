@@ -48,6 +48,7 @@
                     <li><a class="color-logo-blue-on-green margin-menu-item"  v-on:click="menuActive(0)">{{menu[0].label}}</a></li>
                     <li><a class="color-logo-blue-on-green margin-menu-item"  v-on:click="menuActive(2)">{{menu[2].label}}</a></li>
                     <li><a class="color-logo-blue-on-green margin-menu-item"  v-on:click="menuActive(3)">{{menu[3].label}}</a></li>
+                    <li><a class="color-logo-blue-on-green margin-menu-item"  v-on:click="menuActive(4)">{{menu[4].label}}</a></li>
                 </ul>
 
             </div>
@@ -161,7 +162,68 @@
         </div>
     </div>
     <!--e:Setup-->
+    <!--b:EBUG-->
+    <div class="section  pad_top_0"  v-bind:class="{ 'is-hidden': !menu[4].isActive }" >
+        <div class="heading">
+            <h1 class="title">Debug page</h1>
+        </div>
+        <div class="columns">
+            <div class="column is-11">
+                <div class="panel">
+                    <div class="menu has-text-centered">
+                        <ul class="menu-list has-text-centered">
+                            <li><a class="button is-success color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(0)">{{debug_menu[0].label}}</a></li>
+                            <li><a class="button is-success color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(1)">{{debug_menu[1].label}}</a></li>
+                            <li><a class="button is-success color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(2)">{{debug_menu[2].label}}</a></li>
+                            <li><a class="button is-success color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(3)">{{debug_menu[3].label}}</a></li>
+                            <li><a class="button is-success color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(4)">{{debug_menu[4].label}}</a></li>
+                            <li><a class="button is-success color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(5)">{{debug_menu[5].label}}</a></li>
 
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="column has-text-centered"  >
+                        <h3 class="color-red">Battery Control</h3>
+                    </div>
+                    <table class="table is-bordered">
+                        <tbody>
+                        <tr>
+                            <td>Residual batt. capacity</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Charge current</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Discharge current</td>
+                            <td>20</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="column has-text-centered"  >
+                        <h3 class="color-red">Inverter</h3>
+                    </div>
+                    <table class="table is-bordered">
+                        <tbody>
+                        <tr>
+                            <td>Inv. AC out voltage RMS (mV*10), 16-bit</td>
+                            <td>1020</td>
+                        </tr>
+                        <tr>
+                            <td>Inv. Battery voltage (mV*10), 16-bit</td>
+                            <td>0</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--e:DEBUG-->
     <!--Parameters-->
     <div class="section  pad_top_0"  v-bind:class="{ 'is-hidden': !menu[1].isActive }" >
         <div class="heading">

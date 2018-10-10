@@ -13,6 +13,14 @@ $( document ).ready(function() {
                   {label:'DEBUG', isActive:false}
 
             ],
+            debug_menu:[{label:'Can Init',isActive:true},
+                {label:'AUTO RENEW',isActive:false},
+                {label:'AUTO STOP',isActive:false},
+                {label:'INVERTER RENEW', isActive:false},
+                {label:'ENGINE RENEW', isActive:false},
+                {label:'BATTERY RENEW', isActive:false}
+
+            ],
             menuActiveIndex:0,
             error_mes:"",
             error_color:'color-green',//color-green,color-yellow

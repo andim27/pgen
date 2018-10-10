@@ -1,0 +1,31 @@
+
+(!)binded:24-04-2017 18:36
+(DATA-write)2 cmd: [Power_On_Off]:1 24-04-2017 18:36
+(STOP) working on: 24-04-2017 18:36
+(!)binded:24-04-2017 18:37
+(DATA-write)2 cmd: [Power_On_Off]:0 24-04-2017 18:37
+(STOP) working on: 24-04-2017 18:37
+(!)binded:24-04-2017 18:38
+(DATA-write)2 cmd: [Power_On_Off]:1 24-04-2017 18:38
+(STOP) working on: 24-04-2017 18:38
+Start is: 24-04-2017 18:39
+(!)binded:24-04-2017 18:39
+(!!!)(ver.2.18) Start work:24-04-2017 18:39
+(!)binded:24-04-2017 18:47
+(DATA-write)2 cmd: [Power_On_Off]:1 24-04-2017 18:47
+(STOP) working on: 24-04-2017 18:47
+(!)binded:24-04-2017 18:47
+(DATA-write)2 cmd: [Power_On_Off]:0 24-04-2017 18:47
+(STOP) working on: 24-04-2017 18:47
+Start is: 24-04-2017 19:29
+(!)binded:24-04-2017 19:29
+(!!!)(ver.2.18) Start work:24-04-2017 19:29
+Start is: 24-04-2017 19:29
+(!)binded:24-04-2017 19:29
+(!!!)(ver.2.18) Start work:24-04-2017 19:29
+(STOP) working on: 24-04-2017 19:30
+Start is: 24-04-2017 19:31
+(!)binded:24-04-2017 19:31
+(!!!)(ver.2.18) Start work:24-04-2017 19:31
+(STOP) working on: 24-04-2017 22:28
+(STOP) working on: 24-04-2017 22:28
