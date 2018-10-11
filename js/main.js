@@ -13,12 +13,12 @@ $( document ).ready(function() {
                   {label:'DEBUG', isActive:false}
 
             ],
-            debug_menu:[{label:'Can Init',isActive:true},
-                {label:'AUTO RENEW',isActive:false},
-                {label:'AUTO STOP',isActive:false},
-                {label:'INVERTER RENEW', isActive:false},
-                {label:'ENGINE RENEW', isActive:false},
-                {label:'BATTERY RENEW', isActive:false}
+            debug_menu:[{label:'Can Init',isActive:false,isDisabled:false,cmd:'can_init'},
+                {label:'AUTO RENEW',isActive:false,isDisabled:false,cmd:'auto_renew'},
+                {label:'AUTO STOP',isActive:false,isDisabled:false,cmd:'auto_stop'},
+                {label:'INVERTER RENEW', isActive:false,isDisabled:false,cmd:'inverter_renew'},
+                {label:'ENGINE RENEW', isActive:false,isDisabled:false,cmd:'engine_renew'},
+                {label:'BATTERY RENEW', isActive:false,isDisabled:false,cmd:'battery_renew'}
 
             ],
             menuActiveIndex:0,
@@ -74,6 +74,28 @@ $( document ).ready(function() {
                     initToday();
                 }
                 console.log(index);
+            },
+            debug_menuActive:function(index) {
+                for (var i=0; i< this.debug_menu.length;i++ ) {
+                    if (i == index) {
+                        this.debug_menu[i].isActive=true;
+                        this.debug_menu[i].isDisabled=false;
+                        this.send_debug_cmd(i);
+                    } else {
+                        this.debug_menu[i].isActive=false;
+                        this.debug_menu[i].isDisabled=true;
+                    }
+                }
+            },
+            send_debug_cmd:function(index) {
+              var self=this;
+              console.log('send '+ self.debug_menu[index].cmd);
+              setTimeout(function(){
+                  for (var i=0; i< self.debug_menu.length;i++ ) {
+                      self.debug_menu[i].isActive=false;
+                      self.debug_menu[i].isDisabled=false;
+                  }
+              },3000);
             },
             btnMenuClickOpen:function() {
                 $("#menu_modal").addClass('is-active');

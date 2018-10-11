@@ -172,12 +172,16 @@
                 <div class="panel">
                     <div class="menu has-text-centered">
                         <ul class="menu-list has-text-centered">
-                            <li><a class="button is-success color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(0)">{{debug_menu[0].label}}</a></li>
-                            <li><a class="button is-success color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(1)">{{debug_menu[1].label}}</a></li>
-                            <li><a class="button is-success color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(2)">{{debug_menu[2].label}}</a></li>
-                            <li><a class="button is-success color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(3)">{{debug_menu[3].label}}</a></li>
-                            <li><a class="button is-success color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(4)">{{debug_menu[4].label}}</a></li>
-                            <li><a class="button is-success color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(5)">{{debug_menu[5].label}}</a></li>
+                            <li  v-for="(item, index) in debug_menu">
+                                <a class="button is-success is-rounded  margin-menu-item" v-on:click="debug_menuActive(index)" v-bind:class="{'is-loading':debug_menu[index].isActive}" v-bind:disabled="debug_menu[index].isDisabled"   >{{debug_menu[index].label}}</a>
+                            </li>
+                            <!--v-bind:class="{'is-loading':debug_menuActive(index).isActive}"  v-bind:disabled="debug_menuActive(index).enabled==false"-->
+                            <!--color-logo-blue-on-green-->
+                            <!--<li><a class="button is-success is-rounded color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(1)">{{debug_menu[1].label}}</a></li>-->
+                            <!--<li><a class="button is-success is-rounded color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(2)">{{debug_menu[2].label}}</a></li>-->
+                            <!--<li><a class="button is-success is-rounded color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(3)">{{debug_menu[3].label}}</a></li>-->
+                            <!--<li><a class="button is-success is-rounded color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(4)">{{debug_menu[4].label}}</a></li>-->
+                            <!--<li><a class="button is-success is-rounded color-logo-blue-on-green margin-menu-item"  v-on:click="debug_menuActive(5)">{{debug_menu[5].label}}</a></li>-->
 
                         </ul>
                     </div>

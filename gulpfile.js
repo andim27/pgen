@@ -1,11 +1,12 @@
 var dest = require('gulp-dest');
 const gulp = require('gulp');
-const phpMinify = require('@aquafadas/gulp-php-minify');
+//const phpMinify = require('@aquafadas/gulp-php-minify');
+const phpMinify = require('@cedx/gulp-php-minify');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 var pump = require('pump');
 var htmlmin = require('gulp-htmlmin');
- 
+
 gulp.task('minify:php', () => gulp.src('params/plug.php', {read: false})
   .pipe(phpMinify())
   .pipe(gulp.dest('params/plug.job.php'))
