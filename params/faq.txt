@@ -14,3 +14,5 @@ uci commit system
 nano /etc/php.ini
 date.timezone = "America/New_York"
 root@Arduino:~# /etc/init.d/uhttpd  restart
+
+6) http://php.net/manual/ru/timezones.europe.php
