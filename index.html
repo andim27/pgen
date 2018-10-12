@@ -168,6 +168,12 @@
             <h1 class="title">Debug page</h1>
         </div>
         <div class="columns">
+            <div class="column is-11" v-if="debug_error_mes !=''">
+                <div class="notification is-danger">
+                    <button class="delete" v-on:click="debug_error_mes =''"></button>
+                    <span v-text="debug_error_mes"></span>
+                </div>
+            </div>
             <div class="column is-11">
                 <div class="panel">
                     <div class="menu has-text-centered">

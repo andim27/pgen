@@ -1,0 +1,16 @@
+0) https://openwrt.org/docs/guide-user/services/webserver/uhttpd
+1)/etc/init.d/uhttpd restart
+3)http://www.ibuyopenwrt.com/index.php/8-yun-compatible/128-php-and-uhttpd
+
+4)
+opkg update
+opkg install zoneinfo-core
+opkg install zoneinfo-northamerica
+
+uci set system.@system[0].zonename='America/New_York'
+uci set system.@system[0].timezone='EST5EDT,M3.2.0,M11.1.0'
+uci commit system
+5)
+nano /etc/php.ini
+date.timezone = "America/New_York"
+root@Arduino:~# /etc/init.d/uhttpd  restart

@@ -90,6 +90,35 @@ class Plug
         return true;
 
     }
+    public function  writeDebugCommand($cmd_name) {
+        $objDT = new DateTime('NOW');
+        try{
+            switch ($cmd_name) {
+                case 'can_init':
+                    fwrite($this->socket,"\xF0\x7F\x01\xF7");
+                    break;
+                case 'auto_renew':
+                    fwrite($this->socket,"\xF0\x7F\x02\xF7");
+                    break;
+                case 'auto_stop':
+                    fwrite($this->socket,"\xF0\x7F\x03\xF7");
+                    break;
+                case 'inverter_renew':
+                    fwrite($this->socket,"\xF0\x7F\x04495477710674FF52\xF7");
+                    break;
+                case 'engine_renew':
+                    fwrite($this->socket,"\xF0\x7F\x0450498751066CFF49\xF7");
+                    break;
+                case 'battery_renew':
+                    fwrite($this->socket,"\xF0\x7F\x0448464310000E0014\xF7");
+                    break;
+            }
+            pr("\n(DEDUG command was written:".$cmd_name);
+        }  catch (Exception $e) {
+            pr("\n(ERROR-write)debug cmd: [$cmd_name]:".$e->getMessage()." ".$objDT->format('d-m-Y H:i'),3,$this->plug_log);
+        }
+    }
+
     public function  writeCommandValue($cmd_name,$cmd_val) {
         try {
             $objDT = new DateTime('NOW');
@@ -578,7 +607,29 @@ if ($p->isAction('stat')) {
     echo json_encode($res);
     exit(0);
 }
-
+//---------------------------B:DEBUG_CMD----------------------------------
+if ($p->isAction('debug_cmd')) {
+    $p->cur_state = WEB;
+    $debug_cmd=$_POST['debug_cmd'];
+    set_time_limit(90);
+    $res=array("state"=>"done","mes"=>'Debug command sent!');
+    $objDT = new DateTime('NOW');
+    pr("\n(WEB) debug :".$objDT->format('d-m-Y H:i').' debug_cmd is:'.$debug_cmd,3,$p->plug_log);
+    if ($p->connect()) {
+        try {
+            $p->writeDebugCommand($debug_cmd);
+        }  catch(Exception $e) {
+            $res["state"]='error';
+            $res["mes"]  ='Error then writing debug command...';
+        }
+    }  else {
+        $res["state"]='error';
+        $res["mes"]  ='No socket connection...';
+    }
+    echo json_encode($res);
+    exit(0);
+}
+//---------------------------E:DEBUG_CMD----------------------------------
 $options = getopt("m:n:h:c:");
 $method=$options['m'];
 $sub_name=$options['n'];

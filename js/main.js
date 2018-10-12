@@ -23,6 +23,7 @@ $( document ).ready(function() {
             ],
             menuActiveIndex:0,
             error_mes:"",
+            debug_error_mes:"",
             error_color:'color-green',//color-green,color-yellow
             power_url:'params/plug.php',
             power_pressed:false,
@@ -90,12 +91,33 @@ $( document ).ready(function() {
             send_debug_cmd:function(index) {
               var self=this;
               console.log('send '+ self.debug_menu[index].cmd);
+              //---b:call params block------
+                $.ajax({
+                    type: "POST",
+                    url: app.$data.power_url,
+                    data: {debug_cmd:self.debug_menu[index].cmd},
+                    success: function(res){
+                        console.log('(success)Debug action return:',res);
+                        if (res.state=='done') {
+                            //app.$data.power_pressed = false;
+                            console.log('(!)Debug command done!')
+                        } else {
+                            self.debug_error_mes=res.mes;
+                        }
+                    },
+                    fail:function(res){
+                        console.log('(fail)Debug action return:',res);
+                        //app.$data.power_pressed = false;
+                    },
+                    dataType: 'json'
+                });
+                //---e:call params block------
               setTimeout(function(){
                   for (var i=0; i< self.debug_menu.length;i++ ) {
                       self.debug_menu[i].isActive=false;
                       self.debug_menu[i].isDisabled=false;
                   }
-              },3000);
+              },2500);
             },
             btnMenuClickOpen:function() {
                 $("#menu_modal").addClass('is-active');
