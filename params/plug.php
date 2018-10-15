@@ -6,7 +6,7 @@ set_time_limit(0);
 use function error_log as pr;
 class Plug
 {
-    public $ver='3.32';
+    public $ver='4.11';
     public $cur_state=CONSOLE;
 
     public $plug_log    = __DIR__.'/plug_log.txt';
@@ -56,7 +56,7 @@ class Plug
         "stat-fuel-rasxod" =>"UID=WebStat:ou=Test1:parameterName=Fuel_Con:recverName=WebStat;",//--resxod electo energii
         "stat-period" =>"UID=WebStat:ou=Test1:periodTime=|p_period|:parameterName=|p_param_name|:beginTime=|p_begin_value|Z:endTime=|p_end_value|Z",
         "stat" =>"UID=WebStat:ou=Test1:parameterName=|p_param_name|:beginTime=|p_begin_value|Z:endTime=|p_end_value|Z;",//--will done from $cmd_stat
-        "init" =>"UID=WebPage:ou=WebPage:description=Test web page:wr=FALSE:stat=FALSE:iface=SOCKET;",
+        "init" =>"UID=WebPage:ou=WebPage:description=Web page:wr=FALSE:stat=FALSE:iface=SOCKET;",
         "fuel" =>"UID=WebPage:ou=Test1:parameterName=Fuel_Vol:recverName=WebPage;",
         "state" =>"UID=WebPage:ou=Test1:parameterName=State_On_Off:recverName=WebPage;",
         "tank" =>"",
@@ -92,6 +92,7 @@ class Plug
     }
     public function  writeDebugCommand($cmd_name) {
         $objDT = new DateTime('NOW');
+        $this->writeCommandsOne('init');
         try{
             switch ($cmd_name) {
                 case 'can_init':
@@ -155,13 +156,13 @@ class Plug
     public function writeCommandsAll() {
 
         $this->writeCommandsOne('init');
-        $this->writeCommandsOne('fuel');
-        $this->writeCommandsOne('state');
-        $this->writeCommandsOne('eng_temp');
-        $this->writeCommandsOne('batarey');
-        $this->writeCommandsOne('power');
-        $this->writeCommandsOne('inv_load');
-        $this->writeCommandsOne('eng_serv');
+//        $this->writeCommandsOne('fuel');
+//        $this->writeCommandsOne('state');
+//        $this->writeCommandsOne('eng_temp');
+//        $this->writeCommandsOne('batarey');
+//        $this->writeCommandsOne('power');
+//        $this->writeCommandsOne('inv_load');
+//        $this->writeCommandsOne('eng_serv');
 
         //$this->writeCommandsOne('engine_params');
 
@@ -635,6 +636,7 @@ $method=$options['m'];
 $sub_name=$options['n'];
 $h=$options['h'];
 $command=$options['c'];
+$debug_command=$options['d'];
 if ($h != false) {
     echo <<<END
     *** Linkit connection plug-system  ***
@@ -644,17 +646,32 @@ if ($h != false) {
      curparams - get current parameters
 -c  -c[init|fuel|batarey]
      "Command mode.You can send command to socket"
-
+-d  -d[can_init|auto_renew|auto_stop|inverter_renew|engine_renew|battery_renew]
+     "Command mode.You can send debug command to socket"
 END;
 
 }
 if ($command != false) {
+    echo "(Fuel|Batarey) Command...";
+    $p->cur_state = CONSOLE;
     if ($p->connect() == true) {
         $p->writeCommandsOne($command);
         if ($p->cur_state == CONSOLE) {echo "Command  $command sent";}
     } else {
         if ($p->cur_state == CONSOLE) {echo "(ERROR) Command  $command ";}
     }
+    die();
+}
+if ($debug_command != false) {
+    echo "(Debug) Command...";
+    $p->cur_state = CONSOLE;
+    if ($p->connect() == true) {
+        $p->writeDebugCommand($debug_command);
+        if ($p->cur_state == CONSOLE) {echo "Command  $command sent";}
+    } else {
+        if ($p->cur_state == CONSOLE) {echo "(ERROR) Command  $command ";}
+    }
+    die();
 }
 if ($method != false) {
     $p->cur_state=CONSOLE;
